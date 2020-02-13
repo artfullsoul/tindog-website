@@ -1,0 +1,129 @@
+#title{
+    background-color: rgb(247, 75, 75);
+    
+}
+.bigheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+     color: aliceblue;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 1.4rem;
+}
+p{
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom: 250px
+}
+.iphoneimg{
+    transform:rotate(25deg); 
+    width: 15rem;
+    position: absolute;
+    right: 30%;
+    
+}
+body{
+    font-family: "Montserrat-medium";
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+    padding: 0 18px;
+}
+/* icon section  */
+
+.icons{
+    position: relative;
+    left: 46%;
+    color: rgb(247, 75, 75);
+}
+.icons:hover{
+   color: red;
+}
+
+#features{
+    padding-top: 3rem;
+padding-bottom: 3rem;
+background-color: white;
+position: relative;
+z-index: 1;
+}
+/* testimonial section  */
+#testimonials{
+  
+    text-align: center;
+    background-color: rgb(247, 75, 75);
+    color: aliceblue;
+}
+.testimonial-images{
+ border-radius: 50%;
+}
+#press{
+    background-color: rgb(247, 75, 75);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.img-logo{
+    width: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+}
+#cta{
+    background-color: rgb(247, 75, 75);
+    text-align: center;
+    padding: 3%;
+}
+.icoa{
+   
+    padding: 5px;
+    
+}
+.ico{
+    
+    color: black;
+}
+.ico:hover{
+    color: rgb(247, 75, 75);
+}
+#footer{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* mobile responsive */
+@media(max-width:995px){
+    .iphoneimg{
+        transform:rotate(0deg); 
+        
+        position: static;
+        
+    }
+    #title{
+        text-align: center;
+    }
+    .container-fluid{
+        padding-bottom: 50px;
+    }
+}
